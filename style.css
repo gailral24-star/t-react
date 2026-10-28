@@ -840,13 +840,18 @@ section #testimonials {
   margin-bottom: 24px;
   line-height: 1.25;
 }
-.testimonial {
+.testimonials {
   margin-top: 40px;
 }
 .testimonial__rating {
   color: rgba(246, 173, 85);
   margin-right: 2px;
   margin-top: 4px;
+}
+.testimonial__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 .testimonial__title {
   color: #4a5568;
@@ -885,12 +890,7 @@ section #testimonials {
 .testimonial__details {
   margin-left: 24px;
 }
-.testimonial__img {
-  justify-content: center;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
+
 .testimonial__role {
   color: #7c8ba1;
   font-weight: 500;
